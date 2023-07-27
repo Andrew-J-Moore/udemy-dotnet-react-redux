@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Code\\udemy-net-react-redux\\ReStore\\API\\API.csproj": {}
+    "C:\\Code\\udemy-net-react-redux\\ReStore\\API\\API.csproj": {}
   },
   "projects": {
-    "c:\\Code\\udemy-net-react-redux\\ReStore\\API\\API.csproj": {
+    "C:\\Code\\udemy-net-react-redux\\ReStore\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Code\\udemy-net-react-redux\\ReStore\\API\\API.csproj",
+        "projectUniqueName": "C:\\Code\\udemy-net-react-redux\\ReStore\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "c:\\Code\\udemy-net-react-redux\\ReStore\\API\\API.csproj",
+        "projectPath": "C:\\Code\\udemy-net-react-redux\\ReStore\\API\\API.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "c:\\Code\\udemy-net-react-redux\\ReStore\\API\\obj\\",
+        "outputPath": "C:\\Code\\udemy-net-react-redux\\ReStore\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config"
