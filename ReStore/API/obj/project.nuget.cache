@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wQUCRvmUbGjjzbtu65PCwesskJHqSaHafcZQCLnH8LS0e/qGN0yN+SXcIleAiWMzNS6ugXkzxoGW3mIG3L2cGQ==",
+  "dgSpecHash": "/vUpgH0qGyv2Gwzvo2GeN6EcBfhVkEJ9e6gBAtwMjtDerkNdr515Cu1wHM46lIYcaCk8reKInkrtNH3RIfiHLA==",
   "success": true,
-  "projectFilePath": "C:\\Code\\udemy-net-react-redux\\ReStore\\API\\API.csproj",
+  "projectFilePath": "c:\\Code\\udemy-net-react-redux\\ReStore\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.9\\microsoft.aspnetcore.openapi.7.0.9.nupkg.sha512",
