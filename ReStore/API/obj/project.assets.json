@@ -1728,11 +1728,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Code\\udemy-net-react-redux\\ReStore\\API\\API.csproj",
+      "projectUniqueName": "d:\\personal dev shit\\udemy-dotnet-react-redux\\ReStore\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "c:\\Code\\udemy-net-react-redux\\ReStore\\API\\API.csproj",
+      "projectPath": "d:\\personal dev shit\\udemy-dotnet-react-redux\\ReStore\\API\\API.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "c:\\Code\\udemy-net-react-redux\\ReStore\\API\\obj\\",
+      "outputPath": "d:\\personal dev shit\\udemy-dotnet-react-redux\\ReStore\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config"
