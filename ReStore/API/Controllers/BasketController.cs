@@ -64,7 +64,7 @@ namespace API.Controllers
             return BadRequest(new ProblemDetails{Title = "Problem removing item from basket"});
         }
 
-        private BasketDto MapBasketToDto(Basket basket)
+        private static BasketDto MapBasketToDto(Basket basket)
         {
             return new BasketDto
             {
