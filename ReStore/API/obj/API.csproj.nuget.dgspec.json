@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Code\\udemy-net-react-redux\\ReStore\\API\\API.csproj": {}
+    "c:\\Code\\udemy-net-react-redux\\ReStore\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Code\\udemy-net-react-redux\\ReStore\\API\\API.csproj": {
+    "c:\\Code\\udemy-net-react-redux\\ReStore\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Code\\udemy-net-react-redux\\ReStore\\API\\API.csproj",
+        "projectUniqueName": "c:\\Code\\udemy-net-react-redux\\ReStore\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Code\\udemy-net-react-redux\\ReStore\\API\\API.csproj",
+        "projectPath": "c:\\Code\\udemy-net-react-redux\\ReStore\\API\\API.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Code\\udemy-net-react-redux\\ReStore\\API\\obj\\",
+        "outputPath": "c:\\Code\\udemy-net-react-redux\\ReStore\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -39,6 +39,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.9, )"
@@ -50,6 +58,14 @@
               "version": "[7.0.9, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
               "version": "[7.0.9, )"
             },
