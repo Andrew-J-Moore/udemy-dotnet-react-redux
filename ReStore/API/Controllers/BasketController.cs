@@ -23,6 +23,13 @@ namespace API.Controllers
 
             if (basket == null) return NotFound();
 
+            if (basket.Items.Count == 0) 
+            {
+                _context.Baskets.Remove(basket);
+                var result = await _context.SaveChangesAsync() > 0;
+                if(result) return NotFound();
+            }
+
             return basket.MapBasketToDto();
         }
 
@@ -57,7 +64,11 @@ namespace API.Controllers
 
             //remove item or reduce quantity
             basket.RemoveItem(productId, quantity);
+            if(basket.Items.Count == 0)
+            {
+                _context.Baskets.Remove(basket);
 
+            }
             //save changes
             var result = await _context.SaveChangesAsync() > 0;
             if(result) return Ok();
