@@ -11,9 +11,9 @@ export const validationSchema = [
         country: yup.string().required('Country is required'),
     }),
     yup.object({
-        nameOnCard: yup.string().required()
+        
     }),
     yup.object({
-        
-    })
+        nameOnCard: yup.string().required()
+    }),
 ]

@@ -27,7 +27,7 @@ function App() {
     initApp().then(() => setLoading(false)) 
   }, [initApp])
 
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
   const paletteType = darkMode ? 'dark' : 'light';
 
   function handleThemeChange() {
