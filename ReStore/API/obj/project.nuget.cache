@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vAD21/qcdlOsdoiiSZ527Y+qkivKSyZVW9eIXScmgPPprTzu4k8v8lSTbf65zZCKQ90L1Z7e80Dgcq1eW7ap+w==",
+  "dgSpecHash": "V3MW80YLh4ZkrKXRvpWgdDsxJTbztt3g7jzuJH2WKw+qwt7UWdL/Xhe51j2Fh6Q9xVYQBhVBbhsCWWFGSHQzsQ==",
   "success": true,
   "projectFilePath": "C:\\Code\\udemy-net-react-redux\\ReStore\\API\\API.csproj",
   "expectedPackageFiles": [
@@ -41,6 +41,8 @@
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\npgsql\\7.0.4\\npgsql.7.0.4.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\7.0.4\\npgsql.entityframeworkcore.postgresql.7.0.4.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.4\\sqlitepclraw.bundle_e_sqlite3.2.1.4.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\sqlitepclraw.core\\2.1.4\\sqlitepclraw.core.2.1.4.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.4\\sqlitepclraw.lib.e_sqlite3.2.1.4.nupkg.sha512",

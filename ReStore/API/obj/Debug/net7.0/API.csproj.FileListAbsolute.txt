@@ -161,3 +161,6 @@ C:\Code\udemy-net-react-redux\ReStore\API\bin\Debug\net7.0\runtimes\unix\lib\net
 C:\Code\udemy-net-react-redux\ReStore\API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Code\udemy-net-react-redux\ReStore\API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Code\udemy-net-react-redux\ReStore\API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Code\udemy-net-react-redux\ReStore\API\bin\Debug\net7.0\API.staticwebassets.runtime.json
+C:\Code\udemy-net-react-redux\ReStore\API\bin\Debug\net7.0\Npgsql.dll
+C:\Code\udemy-net-react-redux\ReStore\API\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
