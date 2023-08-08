@@ -48,6 +48,9 @@ axios.interceptors.response.use(async response => {
         case 500:
             router.navigate('/server-error', {state: {error:data}});
             break;
+        case 403:
+            toast.error('You are not allowed to do that!');
+            break;
         case 404: 
             toast.error(data.title);
             break;
@@ -63,12 +66,34 @@ const requests = {
     post: (url: string, body: {}) => axios.post(url, body).then(responseBody),
     put: (url: string, body: {}) => axios.put(url, body).then(responseBody),
     delete: (url: string) => axios.delete(url).then(responseBody),
+    postForm: (url: string, data: FormData) => axios.post(url, data, {
+        headers: {'Content-type': 'multipart/form-data'}
+    }).then(responseBody),
+    putForm: (url: string, data: FormData) => axios.put(url, data, {
+        headers: {'Content-type': 'multipart/form-data'}
+    }).then(responseBody),
 }
 
 const Catalog = {
     list: (params: URLSearchParams) => requests.get('products', params),
     details: (id: number) => requests.get(`products/${id}`),
     fetchFilters: () => requests.get('products/filters')
+}
+
+function createFormData(item: any) {
+    let formData = new FormData();
+
+    for(const key in item) {
+        formData.append(key, item[key]);
+    }
+
+    return formData;
+}
+
+const Admin = {
+    createProduct: (product: any) => requests.postForm('products', createFormData(product)),
+    updateProduct: (product: any) => requests.putForm('products', createFormData(product)),
+    deleteProduct: (id: number) => requests.delete(`products/${id}`)
 }
 
 const TestErrors = {
@@ -108,7 +133,8 @@ const agent = {
     Basket,
     Account,
     Orders,
-    Payments
+    Payments,
+    Admin
 }
 
 export default agent;

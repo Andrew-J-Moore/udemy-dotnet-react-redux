@@ -164,3 +164,6 @@ C:\Code\udemy-net-react-redux\ReStore\API\bin\Debug\net7.0\runtimes\win\lib\net6
 C:\Code\udemy-net-react-redux\ReStore\API\bin\Debug\net7.0\API.staticwebassets.runtime.json
 C:\Code\udemy-net-react-redux\ReStore\API\bin\Debug\net7.0\Npgsql.dll
 C:\Code\udemy-net-react-redux\ReStore\API\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Code\udemy-net-react-redux\ReStore\API\bin\Debug\net7.0\AutoMapper.dll
+C:\Code\udemy-net-react-redux\ReStore\API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Code\udemy-net-react-redux\ReStore\API\bin\Debug\net7.0\CloudinaryDotNet.dll
